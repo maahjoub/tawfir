@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Car_line extends Model
 {
     use HasFactory;
+    protected $guarded = [];
+
 }
